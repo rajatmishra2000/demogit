@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+        var Amount = 6000;
+        var Discount;
+        if(Amount>=5000)
+        {
+           Discount = Amount*5/100;
+           var Netamount = Amount-Discount;
+           document.write("The Discount is a 5%");
+           document.write(Discount+"<br>");
+           document.write(Netamount+"<br>");
+        }
+        else
+        if(Amount>=2000)
+        {
+            Discount = Amount*3/100;
+            var Netamount = Amount-Discount;
+            document.write("The Discount is a 3%");
+            document.write(Discount+"<br>");
+            document.write(Netamount+"<br>");
+        }
+        else
+        {
+            document.write("Discount is an 0%");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+        function percentage(H,E,M)
+        {
+          var total = H+E+M;
+           var Percentage = (total*100)/150;
+           document.write(total+"<br>");
+           document.write(Percentage+"<br>");
+        }
+        percentage(48,49,42);
+        function factorial(f)
+        {
+            var fact = 1;
+            var i;
+            for(i=f;i>=1;i--)
+            {
+                fact = i*fact;
+                document.write(fact+"<br>");
+            }
+        }
+        factorial(5);
+    </script>
+</head>
+<body>
+</body>
+</html>
